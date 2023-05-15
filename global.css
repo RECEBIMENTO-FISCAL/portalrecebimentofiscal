@@ -7,7 +7,7 @@
 #menu-h {
     list-style-type: none;
     padding: 0;
-    
+
 }
 
 #menu-h li {
@@ -21,18 +21,6 @@
 .text-center {
     font-weight: bold;
     margin: 15px;
-}
-
-a {
-    font-weight: bold;
-    color: #881111;
-    border-radius: 20px;
-}
-
-a:hover {
-    background-color:  #881111;
-    color: white;
-    border-radius: 20px;
 }
 
 td {
