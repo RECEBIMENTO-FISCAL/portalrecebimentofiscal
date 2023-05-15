@@ -7,6 +7,7 @@
 #pesquisar {
     display: inline;
     padding: 0;
+    align-items: start;
 }
 
 #menu-h {
@@ -48,9 +49,7 @@ td {
 .searchInput {
     text-align: center;
     align-items: center;
-    border-radius: 20px;
-
-
+    border-radius: 15px;
 }
 
 .alert {
