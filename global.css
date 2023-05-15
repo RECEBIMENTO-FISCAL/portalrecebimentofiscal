@@ -4,17 +4,17 @@
     box-sizing: border-box;
 }
 
-#menu-h {
+#menu-h ul {
     list-style-type: none;
     padding: 0;
     background-color: #2b2929;
 }
 
-#menu-h li {
+#menu-h ul li {
     display: inline;
 }
 
-#menu-h li a {
+#menu-h ul li a {
     color: #FFF;
     padding: 20px;
     display: inline-block;
@@ -22,7 +22,7 @@
     transition: background .3s;
 }
 
-#menu-h li a:hover {
+#menu-h ul li a:hover {
     background-color: #8f0808;
 }
 
