@@ -21,6 +21,10 @@
     text-decoration: none;
 }
 
+#menu-h li a:hover {
+    color: #8a1d1d;
+}
+
 .text-center {
     font-weight: bold;
     margin: 15px;
