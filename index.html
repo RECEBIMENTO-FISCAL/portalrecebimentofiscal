@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Filterable Table -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+
+    <link rel="stylesheet" href="global.css">
+
+    <link rel="shortcut icon" href="https://icons.getbootstrap.com/icons/receipt-cutoff.svg" type="image/x-icon">
+
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+
+    <title>IC Transportes</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <h1 class="text-center texto">Matriz de Dados</h1>
+
+        <div class="alert alert-danger" id="texto1" role="alert" style="font-weight: bold;">
+            Custo
+        </div>
+
+        <div class="text-center">
+            <input type="text" class="searchInput text-center" id="myInput" placeholder="Search...">
+        </div>
+
+        <ul class="nav justify-content-center">
+            <!-- <li onmouseover="btnText('Custo')" onmouseout="btnText('CFOP')" class="w-5 p-2" class="nav-item">
+              <a class="nav-link active" href="index.html">Custo</a>
+            </li>
+            <li onmouseover="btnText('Despesa')" onmouseout="btnText('CFOP')" class="w-5 p-2" class="nav-item">
+              <a class="nav-link" href="desp.html">Despesa</a>
+            </li>
+            <li onmouseover="btnText('Ativo')" onmouseout="btnText('CFOP')" class="w-5 p-2" class="nav-item">
+              <a class="nav-link" href="ativo.html">Ativo</a>
+            </li>
+            <li onmouseover="btnText('CFOP')" onmouseout="btnText('CFOP')" class="w-5 p-2" class="nav-item">
+                <a class="nav-link" href="CFOP.html">CFOP</a>
+              </li>
+            <li onmouseover="btnText('Unidades')" onmouseout="btnText('CFOP')" class="w-5 p-2" class="nav-item">
+              <a class="nav-link" href="filiais.html">Unidades</a>
+            </li> -->
+            <li onmouseover="btnText('CFOP')" onmouseout="btnText('CFOP')" class="w-5 p-2" class="nav-item">
+                <a class="nav-link" href="index.html">CFOP</a>
+              </li>
+            <li onmouseover="btnText('Unidades')" onmouseout="btnText('CFOP')" class="w-5 p-2" class="nav-item">
+              <a class="nav-link" href="filiais.html">Unidades</a>
+            </li>
+          </ul>
+
+        </div>
+
+    <div class="table">
+
+        <div id="containerCFOP1">
+            <!-- Primeira Tabela -->
+                    <table class="table table-striped table-white ">
+                        <thead>
+                            <tr>
+                            <th scope="col">Tipo de Nota</th>
+                            <th scope="col">Dentro do estado</th>
+                            <th scope="col">Fora do estado</th>
+                            <th scope="col">Grupo Fiscal</th>
+                            </tr>
+                        </thead>
+                        <tbody id="myTable">
+                        <tr>
+                            <td>NFP DESPESA</td><td>1556</td><td>2556</td><td>2</td>
+                        </tr>
+                        <tr>
+                            <td>NFP CUSTO</td><td>1126 / 1653</td><td>2126 / 2653</td><td>3</td>
+                        </tr>
+                        <tr>
+                            <td>CT DESPESA</td><td>1351</td><td>2351</td><td>2</td>
+                        </tr>
+                        <tr>
+                            <td>CT CUSTO</td><td>1351</td><td>2351</td><td>3</td>
+                        </tr>
+                        <tr>
+                            <td>NFK ENERGIA</td><td>1254</td><td>2254</td><td>4</td>
+                        </tr>
+                        <tr>
+                            <td>NFT / NFM</td><td>1304</td><td>2304</td><td>5</td>
+                        </tr>
+                        <tr>
+                            <td>NFS CUSTO</td><td>1933</td><td>2933</td><td>7</td>
+                        </tr>
+                        <tr>
+                            <td>NFS / BOL / FAT</td><td>1933</td><td>2933</td><td>8</td>
+                        </tr>
+                        <tr>
+                            <td>NFP ATIVO CUSTO</td><td>1551</td><td>2551</td><td>10</td>
+                        </tr>
+                        <tr>
+                            <td>NFP ATIVO DESPESA</td><td>1551</td><td>2551</td><td>11</td>
+                        </tr>
+                        </table>
+                    </div>
+            <!-- Segunda Tabela -->   
+        <div id="containerCFOP2">  
+                    <table class="table table-striped table-white ">
+                        <thead>
+                            <tr>
+                            <th scope="col">Tipo de Emissão</th>
+                            <th scope="col">Dentro do estado</th>
+                            <th scope="col">Fora do estado</th>
+                            </tr>
+                        </thead>
+                        <tbody id="myTable">    
+                        <tr>
+                            <td>Venda: 181</td><td>5102</td><td>6102</td>
+                        </tr>               
+                        <tr>
+                            <td>Remessa para Conserto: 1061</td><td>5915</td><td>6915</td>
+                        </tr>
+                        <tr>
+                            <td>Simples Remessa</br>Transferência: 260</td><td>5949</td><td>6949</td>
+                        </tr>
+                    </table>
+
+
+                    <div id="removeSpaces" class="text-center">
+                        <input id="content" readonly></input>
+                        
+                        <br><input style="width: 300px;" id="send-rm" type="text" placeholder="Coloque a numeração">
+
+                        <br><div id="block">
+                            <p>Caracteres:</p>
+                            <input id="length" type="text" placeholder="" value="0" readonly />
+                            </div>
+
+                            <div id="block">
+                            <p>Timer:</p>
+                            <input id="relogio" type="text" placeholder="" value="0" readonly />
+                             </div>
+
+                        <button id="button-rm" onclick="removeSpace()">Pressione</button>
+
+                      </div>
+
+        </div> 
+        
+        <div id="containerCFOP3">
+            <table class="table table-striped table-white ">
+                <thead>
+                    <tr>
+                    <th scope="col">Estado da Compra do Diesel</th>
+                    <th scope="col">Aliquota</th>
+                    </tr>
+                </thead>
+                <tbody id="myTable">    
+                <tr>
+                    <td>MT</td><td>17%</td>
+                </tr>               
+                <tr>
+                    <td>MG</td><td>15%</td>
+                </tr>  
+                <tr>
+                    <td>PR</td><td>12%</td>
+                </tr>  
+                <tr>
+                    <td>PE</td><td>16%</td>
+                </tr>  
+                <tr>
+                    <td>RJ</td><td>12%</td>
+                </tr>  
+                <tr>
+                    <td>RS</td><td>12%</td>
+                </tr>  
+                <tr>
+                    <td>SC</td><td>12%</td>
+                </tr>  
+                <tr>
+                    <td>SP</td><td>12%</td>
+                </tr>  
+                <tr>
+                    <td>SE</td><td>18%</td>
+                </tr>  
+                <tr>
+                    <td>BA</td><td>25%</td>
+                </tr>  
+                <tr>
+                    <td>PA</td><td>17%</td>
+                </tr>  
+                <tr>
+                    <td>ES</td><td>12%</td>
+                </tr>  
+                <tr>
+                    <td>CE</td><td>25%</td>
+                </tr>   
+                <tr>
+                    <td>MS</td><td>12%</td>
+                </tr>
+                <tr>
+                    <td>TO</td><td>18%</td>
+                </tr>              
+                <tr>
+                    <td>DF</td><td>15%</td>
+                </tr>    
+                <tr>
+                    <td>PB</td><td>18%</td>
+                </tr>
+                <tr>
+                    <td>PI</td><td>18%</td>
+                </tr>
+                <tr>
+                    <td>RN</td><td>18%</td>
+                </tr>
+                <tr>
+                    <td><strong>GO</strong></td><td><strong>14%</strong></td>
+                </tr>  
+                <tr>
+                    <td><strong>MA</strong></td><td><strong>16,5%</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>AL</strong></td><td><strong>17%</strong></td>
+                </tr>                      
+                <tr>
+                    <td colspan="2"><strong>Em negrito ficam passível de alteração.</strong></td>
+                </tr>                
+            </table>            
+        </div>
+
+        <!-- <div id="containerCFOP4">
+
+            <div>
+                <h4><strong>Calculo Pneu Novo</strong></h4>
+                <p><strong>Valor Bruto</strong></p>
+                <input type="text" id="valorbruto" onchange="if(this.value == '' || this.value == null){return this.value = ''}">
+                <p><strong>PIS</strong></p>
+                <input type="text" class="inputstylepisandcofins" id="pis" readonly >
+                <p><strong>COFINS</strong></p>
+                <input type="text" class="inputstylepisandcofins" id="cofins" readonly>
+                <p><strong>Valor Liquido</strong></p>
+                <input type="text" class="inputstylepisandcofins" id="valorliquido" readonly>
+                </br>
+                <button onclick="handlePisAndCofins()">Calcular</button>
+                <button onclick="handlePisAndCofinsClear()">Limpar</button>
+            </div>
+        </div> -->
+
+    </div>
+
+    <footer><span>Powered by @isaelsantos0</span></footer>
+
+    <script src="index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  </body>
+</html>

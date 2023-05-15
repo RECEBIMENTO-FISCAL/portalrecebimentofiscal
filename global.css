@@ -1,0 +1,245 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-center {
+    font-weight: bold;
+    margin: 15px;
+}
+
+a {
+    font-weight: bold;
+    color: #881111;
+    border-radius: 20px;
+}
+
+a:hover {
+    background-color:  #881111;
+    color: white;
+    border-radius: 20px;
+}
+
+td {
+    padding: 0px;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0px;
+    text-align: center;
+    align-items: middle;
+}
+
+.searchInput {
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+
+
+}
+
+.alert {
+    position: absolute;
+    z-index: 998;
+    top: 15px;
+    left: 15px;
+}
+
+.container {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0rem 2rem;
+
+
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.table #containerCFOP1 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5px;
+}
+
+.table #containerCFOP2 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5px;
+}
+
+.table #containerCFOP3 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.table #containerCFOP4 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px 0px 70px;    
+}
+
+.table #containerCFOP4 p {
+    margin-bottom: 0px;
+}
+
+.table #containerCFOP4 button {
+    margin: 20px;
+    padding: 2.5px 10px 2.5px 10px;
+    border-radius: 0.5rem;
+    border: 1px solid;
+    outline: 0;
+    outline-style: none;    
+}
+
+.table #containerCFOP4 .inputstylepisandcofins {
+    border: 0 none;
+    outline: 0;
+    outline-style: none;
+    margin-bottom: 10px;
+    background-color: #dadbda;
+}
+
+#valorbruto {
+    border: 3px solid;
+    outline: 0;
+    outline-style: none;
+}
+
+#send-rm {
+    border-radius: 20px;
+}
+
+#removeSpaces #send-rm {
+    margin-bottom: 10px;
+}
+
+#button-rm {
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    transition: 100ms;
+}
+
+#button-rm:hover {
+    border: 2px solid #159129;     
+}
+
+
+#block {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#length {
+    height: 27px;
+    width: 40px;
+    margin-left: 10px;
+    border: 0 none;
+    outline: 0;
+    background-color: #c2c2c2;
+    border-radius: 1rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#relogio {
+    height: 27px;
+    width: 40px;
+    margin-left: 10px;
+    border: 0 none;
+    outline: 0;
+    background-color: #c2c2c2;
+    border-radius: 1rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#content {
+    width: 420px;
+    height: 27px;
+    border: 0 none;
+    outline: 0;
+    outline-style: none;
+    margin-bottom: 10px;
+    background-color: #c2c2c2;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+#content:hover {
+    border: 2px solid #159129; 
+}
+
+#test{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.rules{
+    padding: 0px 6px 0px 6px;
+    border-radius: 50%;
+    margin-left: 1rem;
+    background-color: #969696;
+
+    font-family: 'Ubuntu';
+    color: white;
+    font-weight: 700;
+    border: solid 1px white;
+    box-shadow: 0px 0px 4px black;
+
+    cursor: pointer;
+}
+
+.rulesShow{
+    display: none;
+    position: absolute;
+    z-index: 998;
+    margin-left: 0.5rem;
+
+    color: black;
+    background-color: #c2c2c2;
+    padding: 0rem 1rem 0rem 1rem;
+    border-radius: 1rem;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    bottom: 0px;
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
