@@ -19,6 +19,7 @@
     padding: 20px;
     display: inline-block;
     text-decoration: none;
+    transition: background .3s;
 }
 
 #menu-h li a:hover {
