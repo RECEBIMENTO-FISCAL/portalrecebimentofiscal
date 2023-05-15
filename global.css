@@ -7,15 +7,18 @@
 #menu-h {
     list-style-type: none;
     padding: 0;
-
+    background-color: #2b2929;
 }
 
 #menu-h li {
     display: inline;
 }
 
-#menu-h a {
-    display: inline;
+#menu-h li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
 }
 
 .text-center {
