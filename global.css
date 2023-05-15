@@ -26,6 +26,10 @@
     background-color: #8f0808;
 }
 
+#menu-h ul li:last-child {
+    float: right;
+}
+
 .text-center {
     font-weight: bold;
     margin: 15px;
