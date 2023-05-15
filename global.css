@@ -7,6 +7,15 @@
 #menu-h {
     list-style-type: none;
     padding: 0;
+    
+}
+
+#menu-h li {
+    display: inline;
+}
+
+#menu-h a {
+    display: inline;
 }
 
 .text-center {
