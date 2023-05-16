@@ -178,10 +178,14 @@ td {
     border-radius: 1rem;
 }
 
+#footer {
+    background-color: #2b2929;
+    bottom: 0;
+}
+
 footer {
     display: flex;    
     justify-content: center;
-    align-items: center;
-    background-color: #2b2929;
+    align-items: center;    
     height: 10px;    
 }
