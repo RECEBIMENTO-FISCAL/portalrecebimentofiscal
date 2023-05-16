@@ -179,9 +179,9 @@ td {
 }
 
 footer {
-    position: center;
+    display: flex;
     width: 100%;
-    background-color: rgba(0,0,0,0.7);
+    background-color: #2b2929;
     bottom: 0px;
 }
 
