@@ -181,5 +181,6 @@ td {
 footer {
     display: flex;    
     justify-content: center;
-    background-color: #2b2929;    
+    background-color: #2b2929;
+    height: 10px;    
 }
