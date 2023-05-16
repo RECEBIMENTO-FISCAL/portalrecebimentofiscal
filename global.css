@@ -180,10 +180,5 @@ td {
 
 #rodapé {
     background-color: #2b2929;
-    bottom: 0;
     display: flex;    
-    justify-content: center;
-    align-items: center;    
-    height: 10px;
-    position: absolute;    
 }
