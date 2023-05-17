@@ -63,6 +63,10 @@ h1 {
     color: #FFF;
   }
 
+  body {
+    align-items: center;
+  }
+
   tr.coluna {
     background-color: #8f0808;
     color: #FFF;
