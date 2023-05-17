@@ -40,6 +40,10 @@
     margin: 15px;
 }
 
+body {
+    align-items: center;
+}
+
 h1 {
     text-align: center;
     font-size: 1px;
