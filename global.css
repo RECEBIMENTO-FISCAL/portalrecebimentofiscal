@@ -91,9 +91,6 @@ td {
     border: 2px solid #159129;     
 }
 
-#removeSpaces {
-    position: center;
-}
 
 #block {
     display: flex;
@@ -178,3 +175,9 @@ td {
     border-radius: 1rem;
 }
 
+footer {
+    padding: 50px;
+    background-color: #2b2929;
+    color: #FFF;
+    text-align: center;
+}
