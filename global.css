@@ -51,6 +51,14 @@ h1 {
     width: 950px;
   }
 
+  td {
+    border: 1px solid black;
+  }
+
+  th {
+    border: 1px solid black;
+  }
+
 .searchInput {
     text-align: center;
     align-items: center;
