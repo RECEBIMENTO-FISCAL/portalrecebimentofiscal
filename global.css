@@ -54,6 +54,7 @@ h1 {
   td {
     border: 1px solid black;
     padding: 2px;
+    text-align: center;
   }
 
   tr.uf {
