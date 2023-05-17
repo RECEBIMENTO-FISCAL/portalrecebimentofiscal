@@ -47,13 +47,13 @@ h1 {
   
   table {
     border: 1px solid black;
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;    
     width: 950px;
   }
 
   td {
     border: 1px solid black;
+    padding: 2px;
   }
 
   th {
