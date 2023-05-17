@@ -45,16 +45,10 @@ h1 {
     font-size: 1px;
   }
   
-  table {
+  table th  {
     font-family: Arial, Helvetica, sans-serif;
     width: 950px;
   }
-
-.table>:not(caption)>*>* {
-    padding: 0px;
-    text-align: center;
-    align-items: middle;
-}
 
 .searchInput {
     text-align: center;
