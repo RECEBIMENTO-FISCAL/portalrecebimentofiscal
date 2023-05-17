@@ -180,5 +180,5 @@ footer {
     background-color: #2b2929;
     color: #FFF;
     text-align: center;
-    flex-grow: 1;
+    flex: 1;
 }
