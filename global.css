@@ -72,6 +72,7 @@ td {
 
 #send-rm {
     border-radius: 20px;
+    text-align: center;
 }
 
 #removeSpaces #send-rm {
@@ -182,8 +183,3 @@ footer {
     text-align: center;
     display: block;
 }
-
-#removeSpaces {
-    padding: 50;
-}
-
