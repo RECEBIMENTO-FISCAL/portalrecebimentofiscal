@@ -209,6 +209,7 @@ h1 {
 }
 
 footer {
+    vertical-align: bottom;
     padding: 52px;
     align-items: end;
     background-color: #2b2929;
