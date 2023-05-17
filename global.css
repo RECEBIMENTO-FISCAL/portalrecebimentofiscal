@@ -47,7 +47,7 @@ h1 {
   
   table {    
     font-family: Arial, Helvetica, sans-serif; 
-    
+    width: auto;
     justify-content: center;
     align-items: center;
   }
