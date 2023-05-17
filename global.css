@@ -178,6 +178,7 @@ td {
 
 footer {
     padding: 50px;
+    align-items: end;
     background-color: #2b2929;
     color: #FFF;
     text-align: center;
