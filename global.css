@@ -66,6 +66,10 @@ h1 {
     color: #FFF;
   }
 
+  tr.info {
+    background-color: #c2c2c2;
+  }
+
   th {
     border: 1px solid black;
     text-align: center;
