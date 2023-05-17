@@ -46,6 +46,7 @@ h1 {
   }
   
   table {
+    border: 1px solid black;
     font-family: Arial, Helvetica, sans-serif;
     width: 950px;
   }
