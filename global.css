@@ -59,6 +59,7 @@ h1 {
 
   tr.uf {
     background-color: #2b2929;
+    font-size: 1.0em;
     color: #FFF;
   }
 
@@ -72,8 +73,7 @@ h1 {
   }
 
   th {
-    border: 1px solid black;
-    font-size: 1.5em;
+    border: 1px solid black;    
     text-align: center;
     padding: 2px;
   }
