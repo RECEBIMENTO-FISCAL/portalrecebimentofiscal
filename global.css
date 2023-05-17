@@ -180,5 +180,6 @@ footer {
     background-color: #2b2929;
     color: #FFF;
     text-align: center;
+    flex-direction: 100vh;
     flex: 1;
 }
