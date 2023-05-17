@@ -183,3 +183,7 @@ footer {
     text-align: center;
     display: block;
 }
+
+div {
+    align-items: center;
+}
