@@ -45,8 +45,7 @@ h1 {
     font-size: 1px;
   }
   
-  table {
-    align-items: center;
+  table {    
     border: 1px solid black;
     font-family: Arial, Helvetica, sans-serif;    
     width: 1000px;
