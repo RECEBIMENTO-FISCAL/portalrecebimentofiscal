@@ -10,7 +10,10 @@
     background-color: #2b2929;
 }
 
-
+#logoic {    
+    display: inline-block;
+    padding: auto;
+}
 
 #menu-h ul li {
     display: inline;
