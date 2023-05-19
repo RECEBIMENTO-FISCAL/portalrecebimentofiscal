@@ -210,7 +210,7 @@ h1 {
     border-radius: 1rem;
 }
 
-footer.rodape {
+footer {
     position: absolute;
     bottom: 0;
     background-color: #2b2929;
