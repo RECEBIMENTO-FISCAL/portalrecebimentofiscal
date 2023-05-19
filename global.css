@@ -12,12 +12,11 @@
 
 #logoic {    
     display: inline-block;
-    padding: auto;
+    width: 25%;
 }
 
 #menu-h ul li {
     display: inline;
-    size-adjust: 50px;
 }
 
 #menu-h ul li a {
