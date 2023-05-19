@@ -6,7 +6,10 @@
 
 menu-h {
     max-width: 1080px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 #menu-h ul {
