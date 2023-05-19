@@ -224,3 +224,12 @@ footer {
 #botao {    
     padding: 88px;    
 }
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
