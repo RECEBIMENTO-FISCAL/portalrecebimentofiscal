@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-menu-h {
-    max-width: 1080px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
 #menu-h ul {
     list-style-type: none;
     padding: 0;
@@ -19,7 +11,7 @@ menu-h {
 }
 
 #menu-h img {
-    display: inline;
+    display: inline-block;
     padding: auto;
 }
 
