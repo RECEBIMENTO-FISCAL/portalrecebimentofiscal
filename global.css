@@ -34,7 +34,7 @@
 #sub {    
     list-style-type: none;
     padding: 10;
-    vertical-align: inherit;
+    position: absolute;
 }
 
 #sub li {
