@@ -95,19 +95,6 @@ h1 {
     padding: 10px;    
   }
 
-  table.ativo {
-    font-family: Arial, Helvetica, sans-serif; 
-    display: flex;
-    padding: 10px;
-  }
-
-  table.ativo td th {
-    width: 300px;
-    padding: 2px;
-    text-align: center;
-    border: 1px solid black;
-  }
-
   td {
     width: 275px;
     padding: 2px;
