@@ -48,7 +48,7 @@ h1 {
   }
 
   td {
-    width: 250px;
+    width: 275px;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
@@ -73,7 +73,7 @@ h1 {
     border: 1px solid black;    
     text-align: center;
     padding: 2px;
-    width: 250px;
+    width: 275px;
   }
 
 .searchInput {
