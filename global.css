@@ -37,12 +37,12 @@
 }
 
 #sub li {
-    display: inline-flex;
+    display: inline-block;
 }
 
 #sub li a {
     color:#2b2929;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
     transition: background .3s;
