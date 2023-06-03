@@ -108,12 +108,29 @@ h1 {
     color: #FFF;
   }
 
+  tr.sintetica {
+    background-color: #2b2929;
+    font-size: 1.5em;
+    color: #FFF;
+  }
+
+
+
   tr.coluna {
     background-color: #8f0808;
     color: #FFF;
   }
 
+  tr.dados {
+    background-color: #8f0808;
+    color: #FFF;
+  }
+
   tr.info {
+    background-color: beige;
+  }
+
+  tr.analitica {
     background-color: beige;
   }
 
