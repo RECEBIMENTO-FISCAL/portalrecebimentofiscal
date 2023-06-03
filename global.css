@@ -46,6 +46,7 @@ h1 {
     display: flex;
     width: 2000px;
     padding: 10px;
+    border: 1px solid black;
   }
 
   td {
