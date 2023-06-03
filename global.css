@@ -112,6 +112,10 @@ h1 {
     background-color: #2b2929;
     font-size: 1.5em;
     color: #FFF;
+    border: 1px solid black;    
+    text-align: center;
+    padding: 2px;
+    width: 300px;
   }
 
 
@@ -124,6 +128,10 @@ h1 {
   tr.dados {
     background-color: #8f0808;
     color: #FFF;
+    border: 1px solid black;    
+    text-align: center;
+    padding: 2px;
+    width: 300px;
   }
 
   tr.info {
@@ -132,6 +140,10 @@ h1 {
 
   tr.analitica {
     background-color: beige;
+    border: 1px solid black;    
+    text-align: center;
+    padding: 2px;
+    width: 300px;
   }
 
   tr.ufaliquota {
