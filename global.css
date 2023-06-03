@@ -33,7 +33,7 @@
 
 #sub {    
     list-style-type: none;
-    padding: 0;
+    padding: 10;
 }
 
 #sub li {
@@ -43,7 +43,7 @@
 #sub li a {
     color:#2b2929;
     padding: 15px;
-    text-align: center;
+    text-align: center;    
     text-decoration: none;
     transition: background .3s;
 }
