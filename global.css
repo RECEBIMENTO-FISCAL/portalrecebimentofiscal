@@ -95,68 +95,52 @@ h1 {
     padding: 10px;    
   }
 
-  td {
-    width: 275px;
-    padding: 2px;
-    text-align: center;
-    border: 1px solid black;
-  }
-
   tr.uf {
     background-color: #2b2929;
     font-size: 1.5em;
     color: #FFF;
+    border: 1px solid black;    
+    text-align: center;
+    padding: 2px;
+    width: 275px;
   }
 
   tr.sintetica {
     background-color: #2b2929;
     font-size: 1.5em;
     color: #FFF;
-    border: 1px solid black;    
-    text-align: center;
-    padding: 2px;
-    width: 300px;
   }
-
-
 
   tr.coluna {
     background-color: #8f0808;
     color: #FFF;
+    border: 1px solid black;    
+    text-align: center;
+    padding: 2px;
+    width: 275px;
   }
 
   tr.dados {
     background-color: #8f0808;
     color: #FFF;
-    border: 1px solid black;    
-    text-align: center;
-    padding: 2px;
-    width: 300px;
   }
 
   tr.info {
     background-color: beige;
+    border: 1px solid black;    
+    text-align: center;
+    padding: 2px;
+    width: 275px;
   }
 
   tr.analitica {
     background-color: beige;
-    border: 1px solid black;    
-    text-align: center;
-    padding: 2px;
-    width: 300px;
   }
 
   tr.ufaliquota {
     background-color: #2b2929;
     font-size: 1.5em;
     color: #FFF;
-  }
-
-  th {
-    border: 1px solid black;    
-    text-align: center;
-    padding: 2px;
-    width: 275px;
   }
 
 .searchInput {
