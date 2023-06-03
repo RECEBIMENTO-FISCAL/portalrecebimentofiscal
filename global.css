@@ -41,7 +41,8 @@ h1 {
     font-size: 1px;
   }
   
-  table {    
+  table {
+    width: 900px;    
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
     justify-content: center;
