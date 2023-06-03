@@ -69,6 +69,12 @@ h1 {
     background-color: beige;
   }
 
+  tr.ufaliquota {
+    background-color: #2b2929;
+    font-size: 1.5em;
+    color: #FFF;
+  }
+
   th {
     border: 1px solid black;    
     text-align: center;
