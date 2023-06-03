@@ -60,10 +60,11 @@
 }
 
 #sub li a {
-    color:#2b2929;
+    color: white;
     padding: 15px;
     text-align: center;    
-    text-decoration: none;    
+    text-decoration: none;
+    border-radius: 12px;    
     transition: background .3s;
 }
 
