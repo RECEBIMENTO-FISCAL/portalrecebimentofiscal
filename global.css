@@ -35,6 +35,7 @@
     list-style-type: none;
     padding: 0;
     background-color: beige;
+    color: #2b2929;
 }
 
 #sub li {
@@ -45,7 +46,7 @@
     color: #FFF;
     padding: 20px;
     display: inline-block;
-    text-decoration: black;
+    text-decoration: none;
     transition: background .3s;
 }
 
