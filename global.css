@@ -33,6 +33,17 @@
 
 #box {
     background-color: #2b2929;
+    border-radius: 12px;
+}
+
+#box2 {
+    background-color: #2b2929;
+    border-radius: 12px;
+}
+
+#box3 {
+    background-color: #2b2929;
+    border-radius: 12px;
 }
 
 #sub {    
