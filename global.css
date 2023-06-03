@@ -31,6 +31,10 @@
     float: right;
 }
 
+#box {
+    background-color: #2b2929;
+}
+
 #sub {    
     list-style-type: none;
     padding: 0;
