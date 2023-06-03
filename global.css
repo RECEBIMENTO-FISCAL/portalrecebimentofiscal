@@ -44,7 +44,7 @@
 #sub li a {
     color:#2b2929;
     padding: 20px;
-    align-items: center;
+    text-align: center;
     text-decoration: none;
     transition: background .3s;
 }
