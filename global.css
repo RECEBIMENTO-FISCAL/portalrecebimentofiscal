@@ -95,6 +95,27 @@ h1 {
     padding: 10px;    
   }
 
+#sintetica {
+        width: 300px;
+        padding: 2px;
+        text-align: center;
+        border: 1px solid black;      
+}
+
+#dados {
+    width: 300px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid black;      
+}
+
+#analitica {
+    width: 300px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid black;      
+}
+
   td {
     width: 275px;
     padding: 2px;
