@@ -31,8 +31,8 @@
     float: right;
 }
 
-#box {
-    background-color: #2b2929;
+.box {
+    border: 1px solid #2b2929;
 }
 
 #sub {    
