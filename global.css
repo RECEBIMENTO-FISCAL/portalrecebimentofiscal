@@ -45,7 +45,7 @@
     color: #FFF;
     padding: 20px;
     display: inline-block;
-    text-decoration: none;
+    text-decoration: black;
     transition: background .3s;
 }
 
