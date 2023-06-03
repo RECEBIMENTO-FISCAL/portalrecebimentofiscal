@@ -36,6 +36,25 @@
     padding: 0;
 }
 
+#sub li {
+    display: inline;
+}
+
+#sub li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+}
+
+#sub li a:hover {
+    background-color: #8f0808;
+}
+
+#sub li:last-child {
+    float: center;
+}
 .text-center {
     font-weight: bold;
     margin: 15px;
