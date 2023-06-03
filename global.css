@@ -37,7 +37,7 @@
 }
 
 #sub li {
-    display: inline;
+    display: inline-flex;
 }
 
 #sub li a {
