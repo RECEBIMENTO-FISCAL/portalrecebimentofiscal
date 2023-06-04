@@ -89,7 +89,7 @@ h1 {
     font-size: 1px;
 }
   
-.unidades {    
+#unidades {    
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
     padding: 8px;    
@@ -101,7 +101,7 @@ h1 {
     padding: 8px;    
 }
 
-.unidades td {
+#unidades td {
     width: 260px;
     padding: 2px;
     text-align: center;
@@ -151,7 +151,7 @@ tr.ufaliquota {
     color: #FFF;
 }
 
-.unidades th {
+#unidades th {
     border: 1px solid black;    
     text-align: center;
     padding: 2px;
