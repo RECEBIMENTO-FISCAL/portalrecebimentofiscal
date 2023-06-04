@@ -109,7 +109,7 @@ h1 {
   }
 
 #ativo td {
-    width: 320px;
+    width: 335px;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
@@ -162,7 +162,7 @@ tr.ufaliquota {
     border: 1px solid black;    
     text-align: center;
     padding: 2px;
-    width: 320px;
+    width: 335px;
 }
 
 .searchInput {
