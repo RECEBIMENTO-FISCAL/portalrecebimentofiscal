@@ -110,7 +110,7 @@ h1 {
 
 #ativo td {
     width: 300px;
-    padding: 3px;
+    padding: 1px;
     text-align: center;
     border: 1px solid black;
 }
@@ -161,7 +161,7 @@ tr.ufaliquota {
 #ativo th {
     border: 1px solid black;    
     text-align: center;
-    padding: 3px;
+    padding: 1px;
     width: 300px;
 }
 
