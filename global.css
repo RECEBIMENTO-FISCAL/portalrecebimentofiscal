@@ -115,7 +115,7 @@ h1 {
     border: 1px solid black;
   }
 
-  tr.uf {
+  #unidades tr.uf {
     background-color: #2b2929;
     font-size: 1.5em;
     color: #FFF;
@@ -129,7 +129,7 @@ h1 {
 
 
 
-  tr.coluna {
+  #unidades tr.coluna {
     background-color: #8f0808;
     color: #FFF;
   }
@@ -139,7 +139,7 @@ h1 {
     color: #FFF;
   }
 
-  tr.info {
+  #unidades tr.info {
     background-color: beige;
   }
 
