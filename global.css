@@ -89,13 +89,13 @@ h1 {
     font-size: 1px;
 }
   
-table.unidades {    
+.unidades {    
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
     padding: 10px;    
 }
 
-table.ativo {    
+.ativo {    
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
     padding: 10px;    
