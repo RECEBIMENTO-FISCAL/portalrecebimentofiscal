@@ -89,14 +89,26 @@ h1 {
     font-size: 1px;
   }
   
-  table {    
+  table.unidades {    
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
     padding: 10px;    
   }
 
+  table.ativo {    
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    padding: 10px;    
+  }
 
-  td {
+  #unidades.td {
+    width: 275px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  #ativo.td {
     width: 275px;
     padding: 2px;
     text-align: center;
@@ -109,7 +121,7 @@ h1 {
     color: #FFF;
   }
 
-  tr.sintetica {
+  #ativo tr.sintetica {
     background-color: #2b2929;
     font-size: 1.5em;
     color: #FFF;
@@ -122,7 +134,7 @@ h1 {
     color: #FFF;
   }
 
-  tr.dados {
+  #ativo tr.dados {
     background-color: #8f0808;
     color: #FFF;
   }
@@ -131,7 +143,7 @@ h1 {
     background-color: beige;
   }
 
-  tr.analitica {
+  #ativo tr.analitica {
     background-color: beige;
   }
 
@@ -141,7 +153,14 @@ h1 {
     color: #FFF;
   }
 
-  th {
+  #unidades.th {
+    border: 1px solid black;    
+    text-align: center;
+    padding: 2px;
+    width: 275px;
+  }
+
+  #ativo th {
     border: 1px solid black;    
     text-align: center;
     padding: 2px;
