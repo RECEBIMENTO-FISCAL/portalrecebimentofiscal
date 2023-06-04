@@ -87,85 +87,85 @@
 h1 {
     text-align: center;
     font-size: 1px;
-  }
+}
   
-  table.unidades {    
+table.unidades {    
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
     padding: 10px;    
-  }
+}
 
-  table.ativo {    
+table.ativo {    
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
     padding: 10px;    
-  }
+}
 
-  #unidades td.info {
+#unidades td.info {
     width: 275px;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
   }
 
-  #ativo.td {
+#ativo.td {
     width: 275px;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
-  }
+}
 
-  #unidades tr.uf {
+#unidades tr.uf {
     background-color: #2b2929;
     font-size: 1.5em;
     color: #FFF;
-  }
+}
 
-  #ativo tr.sintetica {
+#ativo tr.sintetica {
     background-color: #2b2929;
     font-size: 1.5em;
     color: #FFF;
-  }
+}
 
 
 
-  #unidades tr.coluna {
+#unidades tr.coluna {
     background-color: #8f0808;
     color: #FFF;
-  }
+}
 
-  #ativo tr.dados {
+#ativo tr.dados {
     background-color: #8f0808;
     color: #FFF;
-  }
+}
 
-  #unidades tr.info {
+#unidades tr.info {
     background-color: beige;
-  }
+}
 
-  #ativo tr.analitica {
+#ativo tr.analitica {
     background-color: beige;
-  }
+}
 
-  tr.ufaliquota {
+tr.ufaliquota {
     background-color: #2b2929;
     font-size: 1.5em;
     color: #FFF;
-  }
+}
 
-  #unidades.th {
+#unidades.th {
     border: 1px solid black;    
     text-align: center;
     padding: 2px;
     width: 275px;
-  }
+}
 
-  #ativo th {
+#ativo th.dados.sintetica.analitica {
     border: 1px solid black;    
     text-align: center;
     padding: 2px;
     width: 275px;
-  }
+}
 
 .searchInput {
     text-align: center;
