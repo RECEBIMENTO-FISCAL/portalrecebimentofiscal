@@ -101,7 +101,7 @@ h1 {
     padding: 10px;    
   }
 
-  #unidades.td {
+  #unidades td.info {
     width: 275px;
     padding: 2px;
     text-align: center;
