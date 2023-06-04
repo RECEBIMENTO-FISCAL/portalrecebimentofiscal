@@ -123,14 +123,14 @@ h1 {
 
 #aliquotas td {
     width: 290px;
-    padding: 15px;
+    padding: 1px;
     text-align: center;
     border: 1px solid black;
   }
 
 #aliquotas th {
     width: 290px;
-    padding: 15px;
+    padding: 1px;
     text-align: center;
     border: 1px solid black;
   }
