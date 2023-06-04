@@ -102,9 +102,9 @@ h1 {
 }
 
 #unidades td {
-    width: 245px;
+    width: 255px;
     padding: 2px;
-    text-align: center;
+    text-align: flex;
     border: 1px solid black;
   }
 
@@ -153,9 +153,9 @@ tr.ufaliquota {
 
 #unidades th {
     border: 1px solid black;    
-    text-align: center;
+    text-align: flex;
     padding: 2px;
-    width: 245px;
+    width: 255px;
 }
 
 #ativo th {
