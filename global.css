@@ -108,7 +108,7 @@ table.ativo {
     border: 1px solid black;
   }
 
-#ativo tr {
+#ativo td {
     width: 275px;
     padding: 2px;
     text-align: center;
