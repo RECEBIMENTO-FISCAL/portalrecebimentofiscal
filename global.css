@@ -135,10 +135,6 @@ h1 {
     border: 1px solid black;
   }
 
-#aliquotas th.col1 {
-    width: 295;
-}
-
 #unidades tr.uf {
     background-color: #2b2929;
     font-size: 1.5em;
@@ -165,7 +161,7 @@ h1 {
     background-color: beige;
 }
 
-#unidades tr.info {
+#aliquotas tr.info {
     background-color: beige;
 }
 
