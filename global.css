@@ -102,7 +102,7 @@ h1 {
 }
 
 #unidades td {
-    width: 275px;
+    width: 265px;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
@@ -151,7 +151,7 @@ tr.ufaliquota {
     color: #FFF;
 }
 
-#unidades.th {
+#unidades th {
     border: 1px solid black;    
     text-align: center;
     padding: 2px;
