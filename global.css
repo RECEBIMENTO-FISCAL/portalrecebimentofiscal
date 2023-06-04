@@ -95,7 +95,7 @@ table.unidades {
     padding: 10px;    
 }
 
-table.ativo {    
+.ativo {    
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
     padding: 10px;    
