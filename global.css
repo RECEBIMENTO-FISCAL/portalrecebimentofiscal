@@ -160,7 +160,7 @@ tr.ufaliquota {
     width: 275px;
 }
 
-#ativo th.dados.sintetica.analitica {
+#ativo th {
     border: 1px solid black;    
     text-align: center;
     padding: 2px;
