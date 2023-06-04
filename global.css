@@ -95,13 +95,13 @@ table.unidades {
     padding: 10px;    
 }
 
-.ativo {    
+table.ativo {    
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
     padding: 10px;    
 }
 
-#unidades td.info {
+#unidades td {
     width: 275px;
     padding: 2px;
     text-align: center;
@@ -109,8 +109,8 @@ table.unidades {
   }
 
 #ativo td {
-    width: 275px;
-    padding: 2px;
+    width: 300px;
+    padding: 3px;
     text-align: center;
     border: 1px solid black;
 }
@@ -163,8 +163,8 @@ tr.ufaliquota {
 #ativo th {
     border: 1px solid black;    
     text-align: center;
-    padding: 2px;
-    width: 275px;
+    padding: 3px;
+    width: 300px;
 }
 
 .searchInput {
