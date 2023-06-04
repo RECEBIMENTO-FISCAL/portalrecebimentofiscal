@@ -161,6 +161,10 @@ h1 {
     background-color: beige;
 }
 
+#unidades tr.info {
+    background-color: beige;
+}
+
 #ativo tr.analitica {
     background-color: beige;
 }
