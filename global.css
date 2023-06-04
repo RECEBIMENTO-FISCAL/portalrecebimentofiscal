@@ -92,25 +92,24 @@ h1 {
 .unidades {    
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
-    align-items: center;
-    padding: 12px;    
+    padding: 8px;    
 }
 
 .ativo {    
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
-    padding: 12px;    
+    padding: 8px;    
 }
 
 #unidades td {
-    width: 255px;
+    width: 260px;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
   }
 
 #ativo td {
-    width: 300px;
+    width: 315px;
     padding: 1px;
     text-align: center;
     border: 1px solid black;
@@ -156,14 +155,14 @@ tr.ufaliquota {
     border: 1px solid black;    
     text-align: center;
     padding: 2px;
-    width: 255px;
+    width: 260px;
 }
 
 #ativo th {
     border: 1px solid black;    
     text-align: center;
     padding: 1px;
-    width: 300px;
+    width: 315px;
 }
 
 .searchInput {
@@ -305,7 +304,7 @@ footer {
     width: 100%;    
     height: 100px;    
     text-align: center;
-    line-height: 98px;
+    line-height: 100px;
 }
 
 footer.index {
@@ -316,7 +315,7 @@ footer.index {
     width: 100%;    
     height: 100px;    
     text-align: center;
-    line-height: 98px;
+    line-height: 100px;
 }
 
 #botao {    
