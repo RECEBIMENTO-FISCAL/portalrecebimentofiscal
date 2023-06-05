@@ -192,7 +192,8 @@ h1 {
 .searchInput {
     text-align: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 15px;
+    width: 15px;
 }
 
 .alert {
