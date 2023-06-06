@@ -104,7 +104,7 @@ h1 {
 #aliquotas {    
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
-    position: absolute;
+    position: fixed;
     padding: 1px;    
 }
 
