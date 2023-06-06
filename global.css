@@ -314,7 +314,7 @@ h1 {
 }
 
 #content {
-    width: 320px;
+    width: 420px;
     height: 27px;
     border: 0 none;
     outline: 0;
@@ -377,7 +377,7 @@ footer {
 
 #rodape {
     position: absolute;
-    bottom: 0;
+    bottom: 10;
     background-color: #2b2929;
     color: #FFF;
     width: 100%;    
