@@ -337,7 +337,7 @@ footer {
     line-height: 100px;
 }
 
-footer.index {
+#rodape {
     position: absolute;
     bottom: 0;
     background-color: #2b2929;
