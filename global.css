@@ -99,8 +99,6 @@ h1 {
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
     padding: 1px;
-    flex-direction: column;
-    float: left;
       
 }
 
