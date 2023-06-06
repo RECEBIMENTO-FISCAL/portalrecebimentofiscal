@@ -122,10 +122,9 @@ h1 {
 }
 
 #aliquotas td {
-    width: 250px;
+    width: 350px;
     padding: 2px;
     text-align: center;
-    align-items: center;
     border: 1px solid black;
   }
 
