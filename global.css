@@ -377,7 +377,7 @@ footer {
 
 #rodape {
     position: absolute;
-    bottom: 10;
+    bottom: 0;
     background-color: #2b2929;
     color: #FFF;
     width: 100%;    
