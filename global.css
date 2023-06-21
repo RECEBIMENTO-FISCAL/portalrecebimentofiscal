@@ -100,7 +100,7 @@ h1 {
     display: flex;
     padding: 2px;
     float: left;
-    flex-direction:initial;        
+    align-items: flex-start;       
 }
 
 #ativo {    
