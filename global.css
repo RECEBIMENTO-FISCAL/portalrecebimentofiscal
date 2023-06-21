@@ -385,6 +385,17 @@ footer {
     line-height: 100px;
 }
 
+#rodape2 {
+    position:absolute;
+    bottom: 10;
+    background-color: #2b2929;
+    color: #FFF;
+    width: 100%;    
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+}
+
 #botao {    
     padding: 88px;    
 }
