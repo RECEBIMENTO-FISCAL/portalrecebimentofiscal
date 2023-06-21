@@ -377,7 +377,7 @@ footer {
 
 #rodape {
     position: absolute;
-    bottom: 5;
+    bottom: 3;
     background-color: #2b2929;
     color: #FFF;
     width: 100%;    
@@ -391,7 +391,7 @@ footer {
 }
 
 html, body {
-    min-height: 100%;
+    min-height: 200%;
 }
 
 body {
