@@ -390,7 +390,7 @@ footer {
 }
 
 html, body {
-    min-height: 100%;
+    min-height: 20%;
 }
 
 body {
