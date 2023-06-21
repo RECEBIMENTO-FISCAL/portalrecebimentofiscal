@@ -104,7 +104,7 @@ h1 {
 #ativo {    
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
-    padding: 10px;   
+    padding: 1px;   
 }
 
 #aliquotas {    
@@ -376,7 +376,7 @@ footer {
 
 #rodape {
     position: absolute;
-    bottom: 1;
+    bottom: 10;
     background-color: #2b2929;
     color: #FFF;
     width: 100%;    
