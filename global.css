@@ -99,7 +99,8 @@ h1 {
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
     padding: 2px;
-    float: left;        
+    float: left;
+    flex-direction: column;        
 }
 
 #ativo {    
