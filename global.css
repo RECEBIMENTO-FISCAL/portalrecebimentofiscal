@@ -104,14 +104,13 @@ h1 {
 #ativo {    
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
-    padding: 10px;
-    align-items: baseline;    
+    padding: 10px;   
 }
 
 #aliquotas {    
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;   
-    padding: 6px;    
+    padding: 1px;    
 }
 
 #unidades td {
