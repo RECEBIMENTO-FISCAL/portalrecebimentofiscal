@@ -99,7 +99,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
     padding: 2px;
-    justify-content: left;       
+    justify-content: flex-start;       
 }
 
 #ativo {    
