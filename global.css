@@ -116,12 +116,12 @@ h1 {
 
 #NF {    
     font-family: Arial, Helvetica, sans-serif; 
-    justify-content: center;
+    justify-content: right;
     padding: 10px;    
 }
 
 #NF td {
-    width: 150px;
+    width: 170px;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
@@ -161,7 +161,7 @@ h1 {
   }
 
 #NF th {
-    width: 150px;
+    width: 170px;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
