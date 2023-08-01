@@ -131,14 +131,14 @@ h1 {
 
 #aliquotas td {
     width: 250px;
-    height: 20px;
+    height: 10px;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
   }
 
 #aliquotas th.larg {
-    width: 20px;
+    width: 5px;
 }
 
 #aliquotas th {
@@ -381,7 +381,7 @@ footer {
 
 #rodape {
     position: fixed;
-    bottom: 0;
+    bottom: 5;
     background-color: #2b2929;
     color: #FFF;
     width: 100%;    
