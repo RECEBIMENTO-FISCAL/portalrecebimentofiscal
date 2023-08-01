@@ -267,7 +267,7 @@ h1 {
 
 #button-rm {
     height: 40px;
-    width: 10px;
+    width: 100px;
     border-radius: 8px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
@@ -397,7 +397,6 @@ footer {
 
 #botao {    
     padding: 10px;
-    display: inline;
     justify-content: center;
 }
 
