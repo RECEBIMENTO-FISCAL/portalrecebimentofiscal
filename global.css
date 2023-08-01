@@ -121,7 +121,7 @@ h1 {
 }
 
 #NF td {
-    width: 270px;
+    width: 190px;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
@@ -161,7 +161,7 @@ h1 {
   }
 
 #NF th {
-    width: 235px;
+    width: 190px;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
