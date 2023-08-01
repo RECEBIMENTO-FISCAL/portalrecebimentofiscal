@@ -380,7 +380,7 @@ footer {
 }
 
 #rodape {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     background-color: #2b2929;
     color: #FFF;
