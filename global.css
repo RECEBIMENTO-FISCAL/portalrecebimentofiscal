@@ -111,8 +111,7 @@ h1 {
 #aliquotas {    
     font-family: Arial, Helvetica, sans-serif; 
     justify-content: flex-start;
-    display: flex; 
-    padding: 10px;    
+    padding: 30px;    
 }
 
 #unidades td {
@@ -131,14 +130,14 @@ h1 {
 
 #aliquotas td {
     width: 250px;
-    height: 10px;
+    height: 5px;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
   }
 
 #aliquotas th.larg {
-    width: 5px;
+    width: 5cm;
 }
 
 #aliquotas th {
@@ -380,7 +379,7 @@ footer {
 }
 
 #rodape {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: #2b2929;
     color: #FFF;
