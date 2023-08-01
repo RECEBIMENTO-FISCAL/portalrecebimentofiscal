@@ -168,14 +168,14 @@ h1 {
   }
 
 #cfop th {
-    width: 150px;
+    width: 120px;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
   }
 
 #cfop td {
-    width: 150px;
+    width: 120px;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
@@ -189,7 +189,7 @@ h1 {
 
 #NF tr.tit {
     background-color: #2b2929;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #FFF;
 }
 
@@ -201,7 +201,7 @@ h1 {
 
 #cfop tr.titulo {
     background-color: #2b2929;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #FFF;
 }
 
