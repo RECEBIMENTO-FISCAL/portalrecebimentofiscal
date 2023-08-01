@@ -110,12 +110,13 @@ h1 {
 
 #aliquotas {    
     font-family: Arial, Helvetica, sans-serif; 
-    justify-content: flex-start;  
+    justify-content: center; 
     padding: 10px;    
 }
 
 #unidades td {
     width: 270px;
+    height: 150;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
@@ -136,7 +137,7 @@ h1 {
   }
 
 #aliquotas th.larg {
-    width: 50px;
+    width: 20px;
 }
 
 #aliquotas th {
