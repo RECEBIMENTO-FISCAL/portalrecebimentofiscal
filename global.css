@@ -99,7 +99,6 @@ h1 {
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
     padding: 2px;
-    justify-content: flex-start;
     justify-content: left;       
 }
 
