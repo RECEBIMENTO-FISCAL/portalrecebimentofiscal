@@ -116,12 +116,12 @@ h1 {
 
 #NF {    
     font-family: Arial, Helvetica, sans-serif; 
-    display: flex;
+    justify-content: flex-start;
     padding: 10px;    
 }
 
 #NF td {
-    width: 190px;
+    width: 150px;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
@@ -161,7 +161,7 @@ h1 {
   }
 
 #NF th {
-    width: 190px;
+    width: 150px;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
@@ -175,7 +175,7 @@ h1 {
   }
 
 #cfop td {
-    width: 70px;
+    width: 150px;
     padding: 2px;
     text-align: center;
     border: 1px solid black;
