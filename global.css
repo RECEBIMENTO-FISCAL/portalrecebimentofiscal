@@ -439,6 +439,7 @@ footer {
     padding: 1px;
     width: 200px;
     display: flex;
+    margin-left: 2.0rem;
     position: absolute;
 }
 
