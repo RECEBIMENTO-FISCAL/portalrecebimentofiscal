@@ -439,6 +439,7 @@ footer {
     padding: 1px;
     width: 60px;
     display: flex;
+    position: relative;
 }
 
 html, body {
