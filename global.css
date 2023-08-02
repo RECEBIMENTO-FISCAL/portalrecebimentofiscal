@@ -436,7 +436,7 @@ footer {
 }
 
 #botao {    
-    padding: 30px;
+    padding: 1px;
     width: 60px;
     display: flex;
     justify-content: center;
