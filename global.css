@@ -439,7 +439,7 @@ footer {
     padding: 1px;
     width: 60px;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start
 }
 
 html, body {
