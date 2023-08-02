@@ -439,7 +439,7 @@ footer {
     padding: 1px;
     width: 60px;
     display: flex;
-    position: relative;
+    position: absolute;
 }
 
 html, body {
