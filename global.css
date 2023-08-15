@@ -446,6 +446,14 @@ footer {
     margin-top: 50%;
 }
 
+.container-botao {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 html, body {
     width: 100%;
     height: 100%;
