@@ -290,8 +290,6 @@ h1 {
     width: 100vw;
     margin: 0 auto;
     padding: 0rem 2rem;
-
-
     text-align: center;
     align-items: center;
     flex-direction: column;
@@ -305,6 +303,14 @@ h1 {
 
 #removeSpaces #send-rm {
     margin-bottom: 10px;
+}
+
+.removeSpaces {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 #button-rm {
