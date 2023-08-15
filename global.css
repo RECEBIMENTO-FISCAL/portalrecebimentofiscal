@@ -308,9 +308,9 @@ h1 {
 #removeSpaces {
     width: 500px;
     height: 200px;
-    position: absolute;    
+    position: fixed;    
     top: 20%;
-    left: 35%;
+    left: 30%;
 }
 
 #button-rm {
