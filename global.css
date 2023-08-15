@@ -305,7 +305,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-.removeSpaces {
+#removeSpaces {
     width: 200px;
     height: 200px;
     position: absolute;
