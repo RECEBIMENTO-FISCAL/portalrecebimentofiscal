@@ -437,9 +437,10 @@ footer {
     line-height: 100px;
 }
 
-.botao {    
-    padding: 1px;
+.botao {
     position: absolute;
+    width: 200px;
+    height: 150px;
     top: 50%;
     left: 50%;
     margin-left: 50%;
