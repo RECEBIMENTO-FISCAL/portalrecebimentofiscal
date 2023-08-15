@@ -306,8 +306,9 @@ h1 {
 }
 
 #removeSpaces {
-    width: 200px;
+    width: 250px;
     height: 200px;
+    position: absolute;    
     top: 50%;
     left: 50%;
 }
