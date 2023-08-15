@@ -125,7 +125,7 @@ h1 {
 #NF td {
     width: 120px;
     padding: 2px;
-    font-size: 0.6em;
+    font-size: 0.7em;
     text-align: center;
     border: 1px solid black;
   }
@@ -164,7 +164,7 @@ h1 {
   }
 
 #NF th {
-    width: 140px;
+    width: 120px;
     padding: 2px;
     font-size: 0.8em;
     text-align: center;
@@ -172,7 +172,7 @@ h1 {
   }
 
 #cfop th {
-    width: 140px;
+    width: 120px;
     padding: 2px;
     font-size: 0.8em;
     text-align: center;
@@ -182,7 +182,7 @@ h1 {
 #cfop td {
     width: 120px;
     padding: 2px;
-    font-size: 0.6em;
+    font-size: 0.7em;
     text-align: center;
     border: 1px solid black;
   }
