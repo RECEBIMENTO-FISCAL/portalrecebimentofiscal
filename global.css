@@ -315,7 +315,6 @@ h1 {
 #removeSpaces {
     width: 500px;
     height: 200px;
-    display: flexbox;
     top: 20%;
     left: 33%;
 }
