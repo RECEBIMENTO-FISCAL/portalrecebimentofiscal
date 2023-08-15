@@ -100,7 +100,8 @@ h1 {
     padding: 10px;
     margin: 0.5rem;
     position: absolute;
-    justify-content: right;      
+    justify-content: left;
+
 }
 
 #ativo {    
@@ -118,8 +119,9 @@ h1 {
 #NF {    
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
-    position: absolute;
-    justify-content: left;
+    position: fixed;    
+    top: 20%;
+    left: 65%;
     padding: 10px;    
 }
 
