@@ -120,8 +120,8 @@ h1 {
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
     position: absolute;    
-    top: 12%;
-    left: 75%;
+    top: 50%;
+    left: 70%;
     padding: 10px;    
 }
 
