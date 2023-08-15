@@ -100,6 +100,8 @@ h1 {
     padding: 10px;
     margin: 0.5rem;
     display: flex;
+    top: 32%;
+    left: 32%;
     justify-content: left;
 
 }
