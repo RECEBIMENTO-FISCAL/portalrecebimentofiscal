@@ -96,6 +96,10 @@ h1 {
     margin-left: 100px;
 }
 
+#uni {
+    width: 250px;
+}
+
 #cfop {    
     font-family: Arial, Helvetica, sans-serif; 
     padding: 10px;
