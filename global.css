@@ -92,6 +92,9 @@ h1 {
 #unidades {    
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
+    padding: 10px;
+    top: 32%;
+    left: 55%;
     padding: 10px;  
 }
 
