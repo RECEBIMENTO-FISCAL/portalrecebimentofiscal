@@ -30,7 +30,7 @@
           <li><a href="unidades.html">Unidades</a></li>
           <li><a href="aliquotas.html">Alíquotas</a></li>
           <li><a href="classificacoes.html">Classificações</a></li>
-          <li><a href="cartilha.html">Cartilha TESTE</a></li>        
+          <li><a href="cartilha.php">Cartilha TESTE</a></li>        
             
             <li>
             <input type="text" class="searchInput text-center" id="myInput" placeholder="Pesquisar...">
