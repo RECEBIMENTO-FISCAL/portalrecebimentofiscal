@@ -118,6 +118,7 @@ body {
     width: 98vw;
     height: 80vh;
     justify-content: center;
+    align-items: center;
     background-color: beige;
     align-items: center;
 }
