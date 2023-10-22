@@ -1,9 +1,7 @@
 *, body {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    background-color: beige;
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
 }
 
 
@@ -117,7 +115,10 @@ html, body {
 }
 
 body {
-    padding: 0;
-    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
 }
-
