@@ -1,0 +1,470 @@
+*, body {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+
+#menu-h ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #2b2929;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+}
+
+#menu-h ul li a:hover {
+    background-color: #8f0808;
+}
+
+#menu-h ul li:last-child {
+    float: right;
+}
+
+#box {
+    background-color: #2b2929;
+    border-radius: 12px;
+    padding: 0;
+    margin: 1px;
+}
+
+#box2 {
+    background-color: #2b2929;
+    border-radius: 12px;
+    margin: 1px;
+}
+
+#box3 {
+    background-color: #2b2929;
+    border-radius: 12px;
+    margin: 1px;
+}
+
+#sub {    
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#sub li {
+    display: flex;
+}
+
+#sub li a {
+    color: white;
+    padding: 15px;
+    text-align: center;    
+    text-decoration: none;
+    border-radius: 12px;    
+    transition: background .3s;
+}
+
+#sub li a:hover {
+    background-color: #8f0808;
+}
+
+#sub li:last-child {
+    float: center;
+}
+.text-center {
+    font-weight: bold;
+    margin: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1px;
+}
+  
+#unidades {    
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding: 8px;
+    margin-left: 75px;
+}
+
+#cfop {    
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 10px;
+    margin: 0.5rem;
+    display: flex;
+    top: 32%;
+    left: 32%;
+}
+
+#ativo {    
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    padding: 10px;   
+}
+
+#aliquotas {    
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    padding: 10px;    
+}
+
+#NF {    
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    position: absolute;    
+    top: 32%;
+    left: 55%;
+    padding: 10px;    
+}
+
+#NF td {
+    width: 100px;
+    padding: 2px;
+    font-size: 0.8em;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+#unidades td {
+    width: 240px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+#ativo td {
+    width: 335px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#aliquotas td {
+    width: 235px;
+    height: 5px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+#aliquotas th.larg {
+    width: 10px;
+}
+
+#aliquotas th {
+    width: 235px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+#NF th {
+    width: 150px;
+    padding: 2px;
+    font-size: 1.0em;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+#cfop th {
+    width: 150px;
+    padding: 2px;
+    font-size: 1.0em;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+#cfop td {
+    width: 140px;
+    padding: 2px;
+    font-size: 1.0em;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+#unidades tr.uf {
+    background-color: #2b2929;
+    font-size: 1.4em;
+    color: #FFF;
+}
+
+#NF tr.tit {
+    background-color: #2b2929;
+    font-size: 1.1em;
+    color: #FFF;
+}
+
+#ativo tr.sintetica {
+    background-color: #2b2929;
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+#cfop tr.titulo {
+    background-color: #2b2929;
+    font-size: 1.2em;
+    color: #FFF;
+}
+
+#unidades tr.coluna {
+    background-color: #8f0808;
+    color: #FFF;
+}
+
+#NF tr.ope {
+    background-color: #8f0808;
+    color: #FFF;
+}
+
+#cfop tr.itens {
+    background-color: #8f0808;
+    color: #FFF;
+}
+
+#ativo tr.dados {
+    background-color: #8f0808;
+    color: #FFF;
+}
+
+#unidades tr.info {
+    background-color: beige;
+}
+
+#aliquotas tr.estado {
+    background-color: #8f0808;
+    color: #FFF;
+}
+
+#aliquotas tr.aliquotas {
+    background-color: beige;
+}
+
+#cfop tr.descri {
+    background-color: beige;
+}
+
+#ativo tr.analitica {
+    background-color: beige;
+}
+
+#NF tr.dado {
+    background-color: beige;
+}
+
+#aliquotas tr.ufaliquota {
+    background-color: #2b2929;
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+#unidades th {
+    border: 1px solid black;    
+    text-align: center;
+    padding: 2px;
+    width: 270px;
+}
+
+#ativo th {
+    border: 1px solid black;    
+    text-align: center;
+    padding: 2px;
+    width: 335px;
+}
+
+.searchInput {
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 100px;
+}
+
+.alert {
+    position: absolute;
+    z-index: 998;
+    top: 15px;
+    left: 15px;
+}
+
+.container {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0rem 2rem;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#send-rm {
+    border-radius: 20px;
+    text-align: center;
+}
+
+#removeSpaces #send-rm {
+    margin-bottom: 10px;
+}
+
+#removeSpaces {
+    width: 500px;
+    height: 200px;
+    position: relative;
+    top: 20%;
+    left: 33%;
+}
+
+#button-rm {
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    transition: 100ms;
+}
+
+#button-rm:hover {
+    border: 2px solid #159129;     
+}
+
+
+#block {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#length {
+    height: 27px;
+    width: 35px;
+    margin-left: 10px;
+    border: 0 none;
+    outline: 0;
+    background-color: #c2c2c2;
+    border-radius: 1rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#relogio {
+    height: 27px;
+    width: 40px;
+    margin-left: 10px;
+    border: 0 none;
+    outline: 0;
+    background-color: #c2c2c2;
+    border-radius: 1rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#content {
+    width: 370px;
+    height: 27px;
+    border: 0 none;
+    outline: 0;
+    outline-style: none;
+    margin-bottom: 10px;
+    background-color: #c2c2c2;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+#content:hover {
+    border: 2px solid #159129; 
+}
+
+#test{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.rules{
+    padding: 0px 6px 0px 6px;
+    border-radius: 50%;
+    margin-left: 1rem;
+    background-color: #969696;
+
+    font-family: 'Ubuntu';
+    color: white;
+    font-weight: 700;
+    border: solid 1px white;
+    box-shadow: 0px 0px 4px black;
+
+    cursor: pointer;
+}
+
+.rulesShow{
+    display: none;
+    position: absolute;
+    z-index: 998;
+    margin-left: 0.5rem;
+
+    color: black;
+    background-color: #c2c2c2;
+    padding: 0rem 1rem 0rem 1rem;
+    border-radius: 1rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 10;
+    background-color: #2b2929;
+    color: #FFF;
+    width: 100%;    
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+}
+
+#rodape {
+    position: fixed;
+    bottom: 0;
+    background-color: #2b2929;
+    color: #FFF;
+    width: 100%;    
+    height: 25px;    
+    text-align: center;
+    line-height: 25px;
+}
+
+#rodape2 {
+    position:absolute;
+    bottom: 10;
+    background-color: #2b2929;
+    color: #FFF;
+    width: 100%;    
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+}
+
+.container-botao {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
