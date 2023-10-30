@@ -39,18 +39,140 @@
             </li>
         </ul>
     </nav>
+    
+
+
+            <div id="botao"> 
+                    <div id="removeSpaces" class="text-center">
+                        <input id="content" readonly></input>
+                        
+                        <br><input style="width: 300px;" id="send-rm" type="text" placeholder="Coloque a numeração">
+
+                        <br><div id="block">
+                            <p>Caracteres:</p>
+                            <input id="length" type="text" placeholder="" value="0" readonly />
+                            </div>
+
+                            <div id="block">
+                            <p>Timer:</p>
+                            <input id="relogio" type="text" placeholder="" value="0" readonly />
+                            </div>
+
+                        <button id="button-rm" onclick="removeSpace()">Pressione</button>
+                    </div>                    
+            </div>
+            <div>
+              <table id="cfop">
+                <tr class="titulo">      
+                  <th colspan="4">CFOP e Grupos Fiscais</th>
+                  <th colspan="4">Emissão de Notas Fiscais</th>     
+                </tr>      
+                <tr class="itens">      
+                  <th>Tipo de Nota</th>      
+                  <th>Dentro do Estado</th>      
+                  <th>Fora do Estado</th>      
+                  <th>Grupo fiscal</th>
+                  <th>Tipo de Operação</th>
+                  <th>Código de Operação</th>
+                  <th>Dentro do Estado</th>
+                  <th>Fora do Estado</th>  
+                </tr>     
+                <tr class="descri">      
+                  <td>NFP Despesa</td>      
+                  <td>1556</td>      
+                  <td>2556</td>      
+                  <td>2</td>
+                  <td>Venda</td>      
+                  <td>181</td>      
+                  <td>5102</td>      
+                  <td>6102</td>      
+                </tr>      
+                <tr class="descri">      
+                  <td rowspan="3">NFP Custo Lubrificantes</td>      
+                  <td rowspan="3">1653</td>      
+                  <td rowspan="3">2653</td>      
+                  <td rowspan="3">30  -  Lubrificantes     31  -  Arla     32 - Diesel</td>
+                  <td rowspan="3">Remessa para Conserto</td>      
+                  <td rowspan="3">1061</td>      
+                  <td rowspan="3">5915</td>      
+                  <td rowspan="3">6915</td>      
+                </tr>
+                <tr class="descri">
+                </tr>
+                <tr class="descri">               
+                </tr>     
+                <tr class="descri">      
+                  <td>NFP Custo</td>      
+                  <td>1126</td>      
+                  <td>2126</td>      
+                  <td>3</td>
+                  <td>Simples Remessa</td>      
+                  <td>202</td>      
+                  <td>5949</td>      
+                  <td>6949</td>      
+                </tr>      
+                <tr class="descri">      
+                  <td>CT Despesa</td>      
+                  <td>1351</td>      
+                  <td>2351</td>      
+                  <td>2</td>      
+                </tr>      
+                <tr class="descri">      
+                  <td>CT Despesa</td>      
+                  <td>1351</td>      
+                  <td>2351</td>      
+                  <td>3</td>      
+                </tr>      
+                <tr class="descri">      
+                  <td>NFK Energia</td>      
+                  <td>1254</td>      
+                  <td>2254</td>      
+                  <td>4</td>      
+                </tr>      
+                <tr class="descri">      
+                  <td>NFT | NFM</td>      
+                  <td>1304</td>      
+                  <td>2304</td>      
+                  <td>5</td>      
+                </tr>      
+                <tr class="descri">      
+                  <td>NFS Custo</td>      
+                  <td>1933</td>      
+                  <td>2933</td>      
+                  <td>7</td>      
+                </tr>      
+                <tr class="descri">      
+                  <td>NFS | BOL | FAT</td>      
+                  <td>1933</td>      
+                  <td>2933</td>      
+                  <td>8</td>      
+                </tr>      
+                <tr class="descri">      
+                  <td>NFP Ativo Custo</td>      
+                  <td>1551</td>      
+                  <td>2551</td>      
+                  <td>10</td>      
+                </tr>      
+                <tr class="descri">      
+                  <td>NFP Ativo Despesa</td>      
+                  <td>1551</td>      
+                  <td>2551</td>      
+                  <td>11</td>      
+                </tr>      
+              </table>
+              </div>  
 
     <footer id="rodape">
-        <p>Copyright © 2023 Misael Gomes</p>
-      </footer> 
-  
-      <script src="index.js"></script>
-  
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-  
-      <script
-      src="https://code.jquery.com/jquery-3.5.1.js"
-      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-      crossorigin="anonymous"></script>
-    </body>
-  </html>
+      <p>Copyright © 2023 Misael Gomes</p>
+    </footer> 
+
+    <script src="index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  </body>
+</html>
