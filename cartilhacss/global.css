@@ -175,6 +175,10 @@ h1 {
     border: 1px solid black;
   }
 
+td.cor {
+    background-color: yellow;
+}
+
 #cfop th {
     width: 150px;
     padding: 2px;
