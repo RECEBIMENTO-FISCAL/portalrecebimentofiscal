@@ -42,74 +42,110 @@
 <body>    
           <table id="unidades">
               <tr class="uf">
-                  <th colspan="9">Bahia - BA</th>
+                <th colspan="9">Bahia - BA</th>
               </tr>
               <tr class="coluna">
-                  <th>Viagem</th>
-                  <th>Obs</th>
-                  <th>Produto</th>
-                  <th>Tributação</th>
-                  <th>CST</th>
-                  <th>Detalhamento</th>
-                  <th>Nº Cadastro</th>
-                  <th>Observação Fiscal (Obrigatório no CT-e)</th>
-                  <th>Vigência</th>
+                <th>Viagem</th>
+                <th>Obs</th>
+                <th>Produto</th>
+                <th>Tributação</th>
+                <th>CST</th>
+                <th>Detalhamento</th>
+                <th>Nº Cadastro</th>
+                <th>Observação Fiscal (Obrigatório no CT-e)</th>
+                <th>Vigência</th>
               </tr>
               <tr class="info">
-                  <td rowspan="2">BA x BA</td>
-                  <td>Tomador x Prestador x Remetente e Destinatário devem ser contribuintes do estado da BA</td>
-                  <td>Todos</td>
-                  <td>Isento</td>
-                  <td>40</td>
-                  <td>Operação Isenta de ICMS as prestações internas de serviços de transporte de carga destinadas a contribuinte do ICMS</td>
-                  <td>97</td>
-                  <td>ICMS Isento conforme ART. 265 INC CXIII DO RICMS BA</td>
-                  <td>Continua até vigorar</td>
+                <td rowspan="2">BA x BA</td>
+                <td>Tomador x Prestador x Remetente e Destinatário devem ser contribuintes do estado da BA</td>
+                <td>Todos</td>
+                <td>Isento</td>
+                <td>40</td>
+                <td>Operação Isenta de ICMS as prestações internas de serviços de transporte de carga destinadas a contribuinte do ICMS</td>
+                <td>97</td>
+                <td>ICMS Isento conforme ART. 265 INC CXIII DO RICMS BA</td>
+                <td>Continua até vigorar</td>
               </tr>
               <tr>
-                <td></td>
-              </tr>
-              <tr class="info">
-                <td rowspan="2">AP x Outros</td>
-                <td rowspan="2">Com origem em AP e Destino qualquer outro estado</td>
-                <td class="cor">Exportação</td>
-                <td class="cor">Isento</td>
-                <td class="cor">41</td>
-                <td class="cor">O imposto não incide sobre as operações e prestações que destinem mercadorias para o exterior, inclusive produtos primáros e produtos industrializados semielaborados, ou serviços</td>
-                <td class="cor">139</td>
-                <td class="cor">Não incidência do ICMS, conf Art 3°, I</td>
-                <td></td>
-              </tr>
-              <tr class="info">
+                <td>Quando um dos parceiros, seja, Tomador x Prestador  x Remetente x Destinatario não for do estado da BA, ou não contribuinte do imposto</td>
                 <td>Todos</td>
                 <td>Tributado</td>
-                <td>0</td>                
-                <td>ICMS Tributado Aliq. 12% - nas operações e prestações interestaduais que destinem mercadorias, bens ou serviços a contribuintes ou não do imposto</td>
+                <td>0</td>
+                <td>Operaçoes internas no estado da BA, quando algum parceiro comercial no Cte não esteja localizado na BA, aliquota de 19%</td>
                 <td></td>
-                <td></td>                
+                <td>Artigo 15, inciso I, alínea "a", da Lei n° 7.014/96</td>
+                <td>22/03/2023</td>
+              </tr>
+              <tr class="info">
+                <td rowspan="5">BA x Outros</td>
+                <td rowspan="2">Com origem em BA e Destino qualquer outro estado</td>
+                <td class="cor" rowspan="2">Exportação</td>
+                <td class="cor" rowspan="2">Isento</td>
+                <td class="cor" rowspan="2">41</td>
+                <td class="cor">Operação, que mercadorias se destinem exclusivamente ao exterior, Notas fiscais devem estar clara o destino exportação</td>
+                <td class="cor">118</td>
+                <td class="cor">Não incidência do ICMS conforme Art 3º, inciso II RICMS BA LEI 7014 / 1996</td>
+                <td></td>
+              </tr>
+              <tr class="info">                               
+                <td class="cor">Operação, que mercadorias se destinem exclusivamente ao exterior, Notas fiscais devem estar clara o destino exportação (Humberg e Cargil)</td>
+                <td class="cor">118 e 54</td>
+                <td class="cor">"Não incidência do ICMS conforme Art 3º, inciso II RICMS BA LEI 7014 / 1996  
+                  Prest. de serv. de transp. c/suspensão de Pis/Cofins - Lei nº 10.865/04, art. 40, §6ºA"</td>                
                 <td></td>             
               </tr>
               <tr class="info">
-                <td>Outros x AP</td>
-                <td>Viagem com origem em estado diferente de AP</td>
+                <td>Com origem em BA e Destino qualquer outro estado e tomador do frete FORA do estado da BA</td>
                 <td>Todos</td>
-                <td>Tributação</td>
+                <td>Tributado</td>
+                <td>0</td>
+                <td>"ICMS Tributado Aliq. 12% - nas operações e prestações interestaduais que destinem
+                  mercadorias, bens ou serviços a contribuintes ou não do imposto. "</td>
+                <td></td>
+                <td>Art 15, Inc II Lei 7.014/96</td>
+                <td></td>             
+              </tr>
+              <tr class="info">
+                <td>Com origem em BA e Destino qualquer outro estado</td>
+                <td>Produtos Agropecuários</td>
+                <td>Tributado</td>
+                <td>90</td>
+                <td>Deve ser verificado com o cliente se eles irão recolher o imposto - Deve-se ser recolhido antecipadamente quando se tratar de Produtos Agropecuários</td>
+                <td>99</td>
+                <td>RICMS Art. 332, inciso V e VII, linea "k"</td>
+                <td></td>              
+              </tr>
+              <tr class="info">
+                <td>Com origem em BA e Destino qualquer outro estado e tomador do frete DENTRO do estado da BA</td>
+                <td>Todos</td>
+                <td>Substituição Tributária</td>
+                <td>60</td>
+                <td>São sujeitas à substituição tributária por retenção as prestações de serviços de transporte contratadas por contribuinte inscrito neste estado na condição de normal. Deve ser verificado com o cliente se eles irão recolher o imposto.</td>
+                <td>69</td>
+                <td>Substituição tributária - art. 298 do RICMS</td>
+                <td></td>              
+              </tr>
+              <tr class="info">
+                <td>Outros x BA</td>
+                <td>Viagem com origem em estado diferente de BA</td>
+                <td>Todos</td>
+                <td>Tributado</td>
                 <td>0</td>
                 <td>Tributado - Recolhido antecipadamente para o estado origem</td>
                 <td></td>
                 <td></td>
-                <td></td>              
+                <td></td>
               </tr>
               <tr class="info">
-                <td>Subcontratado</td>
-                <td>Opeação Subcontratado CFOP 5360/6360</td>
+                <td>Subcontratação</td>
+                <td>Operação subcontratado 5360/6360</td>
                 <td>Todos</td>
-                <td>Outras</td>
-                <td>90</td>
-                <td>ICMS é recolhido pelo subcontratante</td>
+                <td>Diferido</td>
+                <td>51</td>
+                <td>ICMS é recolhido pelo subcontratante na modalidade diferimento.</td>
                 <td></td>
-                <td>§4° do art. 125 do RICMS/AP</td>
-                <td></td>              
+                <td>CONVÊNIO S/Nº, DE 15 DE DEZEMBRO DE 1970, anexo II</td>
+                <td></td>
               </tr>
       
 
