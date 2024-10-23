@@ -178,6 +178,11 @@ table#cfop {
     margin-bottom: 30px;
 }
 
+div#botao {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 table#cfop th{
     width: 600px;
 }
