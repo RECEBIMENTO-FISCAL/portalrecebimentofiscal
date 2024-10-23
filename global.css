@@ -180,6 +180,8 @@ table#cfop {
 
 table#cfop th{
     width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #cfop th {
