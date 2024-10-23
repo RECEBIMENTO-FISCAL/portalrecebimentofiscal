@@ -171,7 +171,9 @@ h1 {
   }
 
 table#cfop {
-    width: 600px;
+    width: 1200px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #cfop th {
