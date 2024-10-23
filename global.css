@@ -169,6 +169,9 @@ h1 {
     text-align: center;
     border: 1px solid black;
   }
+  div#interface {
+    width: 1000px;
+  }
 
 table#cfop {
     width: 1200px;
