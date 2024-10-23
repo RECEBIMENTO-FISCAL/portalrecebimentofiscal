@@ -175,6 +175,7 @@ table#cfop {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 
 #cfop th {
