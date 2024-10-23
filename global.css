@@ -181,6 +181,7 @@ table#cfop {
 div#botao {
     margin-left: auto;
     margin-right: auto;
+    width: 500px;
 }
 
 table#cfop th{
