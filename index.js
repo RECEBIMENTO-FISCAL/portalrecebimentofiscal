@@ -92,3 +92,28 @@ function handlePisAndCofinsClear(){
   document.querySelector("#cofins").value = "";
   document.querySelector("#valorliquido").value = "";
 }
+
+/* Calculadora Monofásica */
+
+function calcular() {
+  const valorFixo = parseFloat(document.getElementById('valor').value);
+  const numero = parseFloat(document.getElementById('numero').value);
+  const resultado = valorFixo * numero;
+  document.getElementById('resultado').value = `ICMS R$: ${resultado}`;
+}
+
+/*Classificação com opção*/
+function mostrarTabela() {
+  const tabelaSelecionada = document.getElementById('tabelas').value;
+  const tabelas = ['tabela1', 'tabela2', 'tabela3'];
+
+  // Esconder todas as tabelas
+  tabelas.forEach(tabela => {
+      document.getElementById(tabela).style.display = 'none';
+  });
+
+  // Mostrar a tabela selecionada, se houver
+  if (tabelaSelecionada) {
+      document.getElementById(tabelaSelecionada).style.display = 'table';
+  }
+}
