@@ -195,8 +195,6 @@ select {
 
 
 #numero {
-    display: flex;
-    flex-direction: row;
     max-width: 50%;
     border-radius: 0.2rem;
     padding: 0.2rem;
@@ -206,8 +204,6 @@ select {
 }
 
 #resultado {
-    display: flex;
-    flex-direction: row;
     border-radius: 0.2rem;
     padding: 0.2rem;
     font-weight: bold;
