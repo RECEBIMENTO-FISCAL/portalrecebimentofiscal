@@ -1,80 +1,172 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Teko:wght@300..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url(reset.css);
 
 body {
-    background-color: #FFFAFA;
+    display: grid;    
+    height: 100%;    
     font-family: "Cabin", sans-serif;
-    font-weight: 500;
-}
-
-ul {
-    list-style: none;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 56px 1fr 56px;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
 }
 
 header {
+    display: grid;
+    grid-area: header;
     background-color: #1f1517;
-    color: #FFFAFA;
-    padding: 0.5rem;
-}
-
-nav {
-    max-width: 1120px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-h1 {
-    font-family: "Teko", sans-serif;
-    font-weight: 250;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-}
-
-img {
-    width: 10rem;
 }
 
 .menu {
+    height: 56px;
     display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-    color: #FFF2E780;
-}
-
-a {
-    font-size: 1.1rem;
-    text-decoration: none;
-    color: #dcdcdc;
-    transition: 0.4s;
-}
-
-a:hover {
-    background-color: #8B4513;
-    padding: 1.2rem;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Teko", sans-serif;
     color: #FFFAFA;
+    font-weight: 200;
+    font-size: 1.3rem;
+    text-transform: uppercase;
 }
 
-#removedor {
+ul {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #F5F5F5;
+    gap: 1.5rem;
+}
+
+ul li a {
+    color: #dcdcdc;
+    transition: 0.5s;
+}
+
+ul li a:hover {
+    background-color: #dcdcdc;
+    color: #8B4513;
+    padding: 0.8rem;
+}
+
+.logo-ic {
+    max-width: 127px;
 }
 
 main {
+    grid-area: main;
+    padding: 1rem;
+    gap: 1.3rem;
+}
+
+#recursos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 10px;
+    justify-items: center;
+}
+
+#removedor, #calculadora {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-color: #F5F5F5;
+    width: 450px;
+    -webkit-box-shadow: 1px 0px 12px 3px rgba(31,21,23,0.47); 
+    box-shadow: 1px 0px 12px 3px rgba(31,21,23,0.47);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#removeSpaces, #calculator {
+    display: grid;
+    gap: 2px;
+}
+
+#content{
+    width: 400px;
+    border-radius: 0.3rem;
+    background-color: #dcdcdc;
+    cursor: copy;
+    outline-color: cornflowerblue;
+    border: none;
+    padding: 0.3rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+#send-rm {
+    width: 400px;
+    border-radius: 0.3rem;
+    font-weight: 400;
+    text-align: center;
+    border: 2px solid #8B4513;
+    outline-color: crimson;
+    padding: 0.3rem;
+}
+
+.block {
     display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    gap: 1.5rem;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#length {
+    max-width: 8%;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    background-color: #dcdcdc;
+    color: #8B4513;
+    padding: 0.1rem;
+}
+
+#relogio {
+    max-width: 8%;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    background-color: #dcdcdc;
+    color: #8B4513;
+    padding: 0.1rem;
+    margin-left: 32px;
+}
+
+#button-rm, .button-calc {
+    margin: auto;
+    width: 85px;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    font-weight: bolder;
+    background-color: #dcdcdc;
+    color: #1f1517;
+    cursor: pointer; 
+}
+
+#seletor {
+    border-radius: 0.3rem;
+    background-color: #dcdcdc;
+}
+
+#valor {
+    color: #1f1517;
+}
+
+#numero {
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    text-align: center;
+    font-weight: 400;
+    border: 2px solid #8B4513;
+    outline-color: cornflowerblue;
+}
+
+#resultado {
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    text-align: center;
+    font-weight: 400;
+    border: 2px solid cadetblue;
+    pointer-events: none;
 }
 
 h2 {
@@ -88,82 +180,6 @@ h2 {
     text-align: center;
     color: #1f1517;
     margin-top: 1.2rem;
-}
-
-#removeSpaces {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30rem;
-}
-
-#content{
-    width: 63%;
-    border-radius: 0.2rem;
-    background-color: #dcdcdc;
-    cursor: copy;
-    outline-color: #228b22;
-    border: none;
-    padding: 0.2rem;
-    text-align: center;
-    font-weight: bold;
-}
-
-#send-rm {
-    border-radius: 0.2rem;
-    font-weight: bold;
-    text-align: center;
-    outline-color: #1f1517;
-    padding: 0.2rem;
-}
-
-#block {
-    display: flex;
-    justify-content: center;
-}
-
-#length {
-    max-width: 10%;
-    border-radius: 0.2rem;
-    font-weight: bold;
-    text-align: center;
-    border: none;
-    background-color: #dcdcdc;
-    padding: 0.2rem;
-}
-
-#relogio {
-    max-width: 10%;
-    border-radius: 0.2rem;
-    font-weight: bold;
-    text-align: center;
-    border: none;
-    background-color: #dcdcdc;
-    padding: 0.2rem;
-    margin-left: 1.95rem;
-    margin-top: 0.2rem;
-}
-
-#button-rm {
-    max-width: 100%;
-    padding: 0.6rem;
-    border-radius: 0.2rem;
-    font-weight: bolder;
-    background-color: #dcdcdc;
-    cursor: pointer;    
-}
-
-#calculadora {
-    display: flex;
-    flex-direction: column;
-}
-
-#seletor {
-    border-radius: 0.2rem;
-    padding: 0.2rem;
-    font-weight: bold;
-    text-align: center;
-    background-color: #dcdcdc;
 }
 
 
@@ -193,64 +209,39 @@ select {
     width: 9.4rem;
 }
 
-
-#numero {
-    max-width: 50%;
-    border-radius: 0.2rem;
-    padding: 0.2rem;
-    font-weight: bold;
-    text-align: center;
-    background-color: #dcdcdc;
-}
-
-#resultado {
-    border-radius: 0.2rem;
-    padding: 0.2rem;
-    font-weight: bold;
-    text-align: center;
-    background-color: #dcdcdc;
-    border: 2.8px solid #008000;
-    max-width: 50%;
-    pointer-events: none; 
-}
-
-.button-calc {
-    max-width: 100%;
-    padding: 0.6rem;
-    border-radius: 0.2rem;
-    font-weight: bolder;
-    background-color: #dcdcdc;
-    cursor: pointer;
+#tables {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 4px;
+    margin-top: 10px;
 }
 
 table {
-    border-collapse: collapse;
     width: 100%;
-    border-color: #1f1517;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+caption {
+    background-color: #dcdcdc;
+    color: #8B4513;
+    font-weight: bolder;
+    padding: 0.6rem;
 }
 
 th {
-    background-color:#1f1517;
-    color: #F5F5F5;
-    padding: 0.8rem;
+    background-color: #1f1517;
+    color: #dcdcdc;
+    padding: 0.6rem;
 }
 
 td {
-    background-color: #F5F5F5;
-    padding: 1rem;
-    text-align: center;
-}
-
-.titulo-filial {
-    background-color: #dcdcdc;
-    font-size: 1.2rem;
-    text-align: center;
-    color: #1f1517;
-    width: 13rem;
-    margin: auto;
+    padding: 0.6rem;
+    border: 1px solid #1f1517;
 }
 
 footer {
+    grid-area: footer;
     background-color: #1f1517;
     color: #dcdcdc;
     text-align: center;

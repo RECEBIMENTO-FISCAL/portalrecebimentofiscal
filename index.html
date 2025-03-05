@@ -10,84 +10,86 @@
 </head>
 <body>
     <header>
-        <nav>
-            <h1>Portal Recebimento Fiscal</h1>
-            <ul class="menu">
+        <nav  class="menu">
+            <span>Portal Recebimento Fiscal</span>
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="filial.html">Filial</a></li>
                 <li><a href="classificacao.html">Classificação</a></li>
             </ul>
-            <img src="/imagens/ictransportes.png" width="115px" height="90px" alt="IC Transportes">
+            <img class="logo-ic" src="/imagens/ictransportes.png" alt="IC Transportes">
         </nav>
     </header>
     <main>
-
+        <section id="recursos">
 <!--Removedor de Caracteres-->
         <section id="removedor">
-        <div id="botao"> 
-            <div id="removeSpaces" class="text-center">
-                <h2>Removedor de Caracteres</h2>
-                <input id="content" placeholder="Copie ao clicar" readonly/><br>                
-                <input style="width: 300px;" id="send-rm" type="text" autocomplete="off" placeholder="Coloque a numeração"><br>
-                <div id="block">
+            <div id="removeSpaces">
+                <span>Removedor de Caracteres</span>
+                <input id="content" placeholder="Clique para copiar" readonly/><br>                
+                <input id="send-rm" type="text" autocomplete="off" placeholder="Coloque a numeração"><br>
+                <div class="block">
                     <p>Caracteres:</p>
                     <input id="length" type="text" placeholder="" value="0" readonly />
                 </div>
-                <div id="block">
+                <div class="block">
                     <p>Timer:</p>
                     <input id="relogio" type="text" placeholder="" value="0" readonly />
-                </div><br>
+                </div>
                 <button id="button-rm" onclick="removeSpace()">Pressione</button>
-            </div>
-        </div>
+             </div>
+        </section>
 <!--Calculadora Monofásica-->
-        <div id="calculadora">
-            <h2>Calculadora Monofásica</h2>  
-            <div id="seletor">          
-            <label for="valor">Selecione o Estado:</label>
-            <select id="valor">
-                <option value="1.113168">AC</option>
-                <option value="1.11272">AL</option>
-                <option value="1.110816">AM</option>
-                <option value="1.111376">AP</option>
-                <option value="1.113168">BA</option>
-                <option value="1.111824">CE</option>
-                <option value="1.116304">DF</option>
-                <option value="1.113616">ES</option>
-                <option value="1.114064">GO</option>
-                <option value="1.110816">MA</option>
-                <option value="1.116304">MG</option>
-                <option value="1.113168">MS</option>
-                <option value="1.112272">MT</option>
-                <option value="1.111824">PA</option>
-                <option value="1.11272">PB</option>
-                <option value="1.11272">PE</option>
-                <option value="1.110816">PI</option>
-                <option value="1.11776">PR</option>
-                <option value="1.114512">RJ</option>
-                <option value="1.111376">RN</option>
-                <option value="1.111376">RO</option>
-                <option value="1.110368">RR</option>
-                <option value="1.119104">RS</option>
-                <option value="1.116752">SC</option>
-                <option value="1.112272">SE</option>
-                <option value="1.117312">SP</option>
-                <option value="1.111824">TO</option>
-            </select>
+        <section id="calculadora">
+            <div id="calculator">
+                <span>Calculadora Monofásica</span>  
+                <div id="seletor">       
+                <label for="valor">Selecione o Estado:</label>
+                <select id="valor">
+                    <option value="0">--</option>
+                    <option value="1.113168">AC</option>
+                    <option value="1.11272">AL</option>
+                    <option value="1.110816">AM</option>
+                    <option value="1.111376">AP</option>
+                    <option value="1.113168">BA</option>
+                    <option value="1.111824">CE</option>
+                    <option value="1.116304">DF</option>
+                    <option value="1.113616">ES</option>
+                    <option value="1.114064">GO</option>
+                    <option value="1.110816">MA</option>
+                    <option value="1.116304">MG</option>
+                    <option value="1.113168">MS</option>
+                    <option value="1.112272">MT</option>
+                    <option value="1.111824">PA</option>
+                    <option value="1.11272">PB</option>
+                    <option value="1.11272">PE</option>
+                    <option value="1.110816">PI</option>
+                    <option value="1.11776">PR</option>
+                    <option value="1.114512">RJ</option>
+                    <option value="1.111376">RN</option>
+                    <option value="1.111376">RO</option>
+                    <option value="1.110368">RR</option>
+                    <option value="1.119104">RS</option>
+                    <option value="1.116752">SC</option>
+                    <option value="1.112272">SE</option>
+                    <option value="1.117312">SP</option>
+                    <option value="1.111824">TO</option>
+                </select>
+                </div>
+                <div>
+                    <label for="numero"></label>
+                    <input type="number" id="numero" min="0" placeholder="Litros">            
+                    <input type="text" id="resultado" placeholder="Valor ICMS"/>
+                </div>
+                <br>
+                <button class="button-calc" onclick="calcular()">Calcular</button>            
             </div>
-            <div>
-                <label for="numero"></label>
-                <input type="number" id="numero" placeholder="Litros">            
-                <input type="text" id="resultado" placeholder="Resultado"/>
-            </div>
-            <br>
-            <button class="button-calc" onclick="calcular()">Calcular</button>            
-        </div>
+            </section>
         </section>
 <!--Tabela CFOP-->
-        <section>
-            <h2>CFOP e Grupos Fiscais</h2>
-            <table border="1">
+        <section id="tables">            
+            <table>
+                <caption>CFOP e Grupos Fiscais</caption>
                 <thead>
                     <tr>
                         <th>Tipo de Documento</th>
@@ -147,12 +149,102 @@
                 </tr>
                 </tbody>
             </table>
-        </section>
-<!--Tabela Emissão de Notas-->
-        <section>
-            <h2>Emissão de Notas Fiscais</h2>
-            <table border="1">
+
+<!--Tabela CST-->
+            <table>
+                <caption>EM ATUALIZAÇÃO - Tabela Consolidada CST</caption>
                 <thead>
+                    <tr>
+                        <th>Tributação pelo ICMS</th>
+                        <th>CST</th>
+                        <th colspan="3">Simples Nacional</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tributada Integralmente</td>
+                        <td>00</td>
+                        <td>101</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Tributada e com cobrança do ICMS por substituição tributária</td>
+                        <td>10</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+<!--Tabela Emissão de Notas-->
+            
+            <table>
+                <caption>Emissão de Notas Fiscais</caption>
+                <thead>                    
                     <tr>
                         <th>Tipo de Operação</th>
                         <th>Código de Operação</th>

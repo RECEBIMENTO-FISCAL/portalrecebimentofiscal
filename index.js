@@ -99,7 +99,7 @@ function calcular() {
   const valorFixo = parseFloat(document.getElementById('valor').value);
   const numero = parseFloat(document.getElementById('numero').value);
   const resultado = valorFixo * numero;
-  document.getElementById('resultado').value = `ICMS R$: ${resultado}`;
+  document.getElementById('resultado').value = `R$ ${resultado}`;
 }
 
 /*Classificação com opção*/
