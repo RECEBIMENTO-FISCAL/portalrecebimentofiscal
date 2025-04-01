@@ -1,11 +1,10 @@
 @import url(reset.css);
 
 body {
-    display: grid;    
-    height: 100%;    
+    display: grid;   
+    margin: 0; 
+    height: 100vh;    
     font-family: "Cabin", sans-serif;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 56px 1fr 56px;
     grid-template-areas: 
     "header header header"
     "main main main"
@@ -16,6 +15,7 @@ header {
     display: grid;
     grid-area: header;
     background-color: #1f1517;
+    padding: 0.4rem;
 }
 
 .menu {
@@ -37,13 +37,13 @@ ul {
 
 ul li a {
     color: #dcdcdc;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 ul li a:hover {
     background-color: #dcdcdc;
     color: #8B4513;
-    padding: 0.8rem;
+    padding: 0.9rem;
 }
 
 .logo-ic {
@@ -52,14 +52,12 @@ ul li a:hover {
 
 main {
     grid-area: main;
-    padding: 1rem;
-    gap: 1.3rem;
+    padding: 2.0rem;
 }
 
 #recursos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    gap: 10px;
     justify-items: center;
 }
 
@@ -133,16 +131,29 @@ main {
 
 #button-rm, .button-calc {
     margin: auto;
+    margin-top: 4px;
     width: 85px;
     padding: 0.6rem;
     border-radius: 0.3rem;
+    border: none;
     font-weight: bolder;
-    background-color: #dcdcdc;
-    color: #1f1517;
-    cursor: pointer; 
+    background: linear-gradient(90deg, rgb(231, 142, 107) 0%, rgb(224, 158, 110) 13%, rgba(219,156,96,1) 100%);
+    color: white;
+    cursor: pointer;
+    box-shadow: #1f1517;
+    -webkit-box-shadow: 1px 0px 6px 1px rgba(31,21,23,0.56);
+    -moz-box-shadow: 1px 0px 6px 1px rgba(31,21,23,0.56);
+    box-shadow: 1px 0px 6px 1px rgba(31,21,23,0.56);
+}
+
+#button-rm:hover, .button-calc:hover {
+    filter: brightness(1.1);
 }
 
 #seletor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 0.3rem;
     background-color: #dcdcdc;
 }
@@ -251,8 +262,13 @@ th {
 }
 
 td {
-    padding: 0.6rem;
-    border: 1px solid #1f1517;
+    padding: 0.4rem;
+    border: 1px solid #dcdcdc;
+}
+
+tr:hover {
+    background: #ffdac5;
+    filter: brightness(1.1);
 }
 
 .cst-col {
