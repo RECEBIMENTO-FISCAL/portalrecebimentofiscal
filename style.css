@@ -53,6 +53,7 @@ ul li a:hover {
 main {
     grid-area: main;
     padding: 2.0rem;
+    gap: 1.3rem;
 }
 
 #recursos {
