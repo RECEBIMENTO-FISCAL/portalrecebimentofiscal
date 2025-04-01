@@ -53,13 +53,13 @@ ul li a:hover {
 main {
     grid-area: main;
     padding: 2.0rem;
-    gap: 1.3rem;
 }
 
 #recursos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     justify-items: center;
+    gap: 10px;
 }
 
 #removedor, #calculadora {
