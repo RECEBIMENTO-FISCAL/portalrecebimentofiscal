@@ -93,7 +93,7 @@ function handlePisAndCofinsClear(){
   document.querySelector("#valorliquido").value = "";
 }
 
-/* Calculadora Monofásica */
+/* Calculadora Monofásica 
 
 function calcular() {
   const valorFixo = parseFloat(document.getElementById('valor').value);
@@ -101,6 +101,7 @@ function calcular() {
   const resultado = valorFixo * numero;
   document.getElementById('resultado').value = `R$ ${resultado}`;
 }
+*/
 
 /*Classificação com opção*/
 function mostrarTabela() {
