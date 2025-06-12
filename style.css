@@ -56,26 +56,27 @@ main {
 }
 
 #recursos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
     gap: 10px;
 }
 
-#removedor, #calculadora {
-    display: grid;
-    justify-content: center;
+#removedor {
+    display: flex;
+    margin: auto;
     text-align: center;
+    width: 60%;
     background-color: #F5F5F5;
-    width: 450px;
     -webkit-box-shadow: 1px 0px 12px 3px rgba(31,21,23,0.47); 
     box-shadow: 1px 0px 12px 3px rgba(31,21,23,0.47);
     border-radius: 10px;
     padding: 10px;
 }
 
-#removeSpaces, #calculator {
-    display: grid;
+#removeSpaces {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
     gap: 2px;
 }
 
@@ -86,7 +87,7 @@ main {
     cursor: copy;
     outline-color: cornflowerblue;
     border: none;
-    padding: 0.3rem;
+    padding: 0.4rem;
     text-align: center;
     font-weight: 400;
 }
@@ -98,7 +99,7 @@ main {
     text-align: center;
     border: 2px solid #8B4513;
     outline-color: crimson;
-    padding: 0.3rem;
+    padding: 0.4rem;
 }
 
 .block {
@@ -130,7 +131,7 @@ main {
     margin-left: 32px;
 }
 
-#button-rm, .button-calc {
+#button-rm {
     margin: auto;
     margin-top: 4px;
     width: 85px;
@@ -147,7 +148,7 @@ main {
     box-shadow: 1px 0px 6px 1px rgba(31,21,23,0.56);
 }
 
-#button-rm:hover, .button-calc:hover {
+#button-rm:hover {
     filter: brightness(1.1);
 }
 
